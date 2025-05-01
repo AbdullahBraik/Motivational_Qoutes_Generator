@@ -219,6 +219,10 @@ footer {
     position: relative;
 }
 
+
+
+
+
 /* Animations */
 @keyframes fadeInQuote {
     from { opacity: 0; transform: translateY(10px); }
