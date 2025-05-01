@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <title>Motivational Quotes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="navbar">
+      <h2>Motivational Quotes</h2>
+    </div>
+  </header>
+
+  <!-- Typing Animation -->
+  <div id="typing-container">
+    <h1 id="typing-text"></h1>
+  </div>
+
+  <!-- Main Quote Container -->
+  <div class="container">
+    <div class="quote-box">
+      <p id="quote-text">Loading...</p>
+      <p id="author-text"></p>
+    </div>
+    <div class="button-container">
+      <!-- Replaced icons with Font Awesome -->
+      <button id="new-quote-btn"><i class="fas fa-dice"></i> New Quote</button>
+      <button id="copy-btn"><i class="fas fa-copy"></i> Copy</button>
+      <button id="share-btn"><i class="fab fa-twitter"></i> Share</button>
+      <button id="music-toggle"><i class="fas fa-volume-mute"></i> Music Off</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Motivational Quotes. All rights reserved. | Designed for inspiration.</p>
+  </footer>
+  
+
+  <!-- Background Music -->
+  <audio id="bg-music" loop>
+    <source src="bg-music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
